@@ -1,0 +1,112 @@
+/* WPML Landing Page
+ ****************************************************/
+
+#wpcd-welcome-panel .welcome-panel-column li .dashicons {
+	color: #999;
+	margin-right: 0.5em;
+	vertical-align: text-top;
+}
+
+#wpcd-welcome-panel .welcome-panel-close .dashicons-dismiss {
+	font-size: 1em;
+	color: #aaa;
+}
+
+#wpcd-welcome-panel .welcome-panel-close:hover .dashicons-dismiss {
+	color: #c00;
+}
+
+/*
+ * Custom Dashboard
+ */
+
+#wpcd-home #dashboard-widgets {
+	width: 100% !important;
+}
+
+#wpcd-home #dashboard-widgets .hndle {
+	padding-left: 24px;
+}
+
+#wpcd-home #dashboard-widgets #postbox-container-1 {
+	float: left;
+	width: 72%;
+}
+
+#wpcd-home #dashboard-widgets #postbox-container-2 {
+	float: right;
+	max-width: 420px;
+	width: 28%;
+}
+
+#wpcd-home #dashboard-widgets #postbox-container-1 .main-config {
+	display: none;
+}
+
+#wpcd-home #dashboard-widgets .postbox-container .ui-sortable-placeholder,
+#wpcd-home #dashboard-widgets .postbox-container .ui-sortable-placeholder {
+	border: 3px dashed #ccc !important;
+	min-height: 72px;
+}
+
+/** Stats **/
+
+#wpcd_dashboard_stats_widget li {
+	display: inline-block;
+	vertical-align: top;
+	width: 49%;
+}
+
+#wpcd_latest_posts_widget li .dashicons {
+	color: #999;
+	margin-right: 0.25em;
+	vertical-align: text-top;
+}
+
+/** Latest Posts **/
+
+#wpcd_dashboard_latest_posts_widget .hndle {
+	padding-left: 24px;
+}
+
+#wpcd-home #wpcd_latest_posts_widget .wpcd-post {
+	border-bottom: 1px solid #ddd;
+	margin: 0.5em 0;
+	padding: 0.5em 0.5em 1em 0.5em;
+}
+
+#wpcd-home #wpcd_latest_posts_widget .wpcd-post .entry-meta {
+	color: #666;
+	display: inline-block;
+	padding: 0.25em 0 0 0.5em;
+}
+
+#wpcd-home #wpcd_latest_posts_widget .wpcd-post .post-date.hide-if-js.hide-if-no-js {
+	display: none;
+}
+
+#wpcd-home #wpcd_latest_posts_widget .wpcd-post .post-comments {
+	float: right;
+}
+
+#wpcd-home #wpcd_latest_posts_widget .wpcd-post .read-more {
+	text-align: right;
+}
+
+#wpcd-home #wpcd_latest_posts_widget #latest_posts_load_more {
+	margin: 1.5em 0;
+	position: relative;
+}
+
+#wpcd-home #wpcd_latest_posts_widget #latest_posts_load_more .dashicons {
+	line-height: 1.5;
+}
+
+#wpcd-home #wpcd_latest_posts_widget #latest_posts_load_more .spinner {
+	position: absolute;
+	display: block;
+	float: none;
+	left: 50%;
+	margin-left: -10px;
+	top: 1px;
+}
